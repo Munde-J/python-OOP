@@ -11,6 +11,22 @@ for y in x:
 
     else:
         print(f" {y} is not divisible by 3,5 and 7")
+#write a program to accept percentage from the user and display
+x=int(input("Enter Percentage"))
+if x > 90:
+    print('A')
+elif x ==80 and x <=89:
+    print('B')
+elif x==70 and x<=79:
+    print('C')
+else:
+    print('D')
+
+#write a program to accept the cost price of a bike and display the road tax to 
+# be paid according to th followin criteria
+
+
+
 
 
 
