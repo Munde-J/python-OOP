@@ -35,12 +35,14 @@ while a<b:
 # using when,if and continue print all the numbers that are divisible 
 # by 5 between 200 and 500
 
-    a=200
-    b=500
+a=200
+b=500
 
-    while a<b:
-        a+=1
-        if a%5!=0:
-            continue
+while a<b:
+    a+=1
+    if a%5!=0:
+        continue
         print(a)
+
+
 
